@@ -80,3 +80,26 @@ nav a:hover {
 .project:hover {
     box-shadow: 10px 10px 30px black;
 }
+
+.project-section {
+    background-image: url('./images/Group_33094_1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5% 10%;
+    padding-left: 1%;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.project-section {
+    display: flex;
+}
+
+#last-link {
+    margin-top: 40px;
+    margin-left: 50%;
+}
+
+.logo img {
+    width: 50px;
+}
