@@ -102,4 +102,9 @@ nav a:hover {
 
 .logo img {
     width: 50px;
+    margin: 10px;
+}
+
+.logo img:hover {
+    box-shadow: 10px 10px 30px black;
 }
