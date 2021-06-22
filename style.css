@@ -1,26 +1,40 @@
-body{
+body {
     font-family: 'Rubik', sans-serif;
 }
-nav{
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+section {
+    display: inline-block;
+}
+
+nav {
     text-align: end;
     margin-right: 10%;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     padding: 1%;
     color: black;
 }
-nav a:hover{
+
+nav a:hover {
     color: red;
     font-size: 1.2em;
 }
-h1{
-    font-size: 50px;
-}
-.orange-text{
+
+.orange-text {
     color: orange;
 }
-.link-tag{
+
+.link-tag {
     border-radius: 10px;
     padding: 10px 20px;
     text-decoration: none;
@@ -28,16 +42,41 @@ h1{
     font-weight: bold;
     background-image: linear-gradient(45deg, tomato, orange);
 }
-.link-tag:hover{
+
+.link-tag:hover {
     border: 1px solid red;
     font-size: 1.2em;
 }
-.half-width{
+
+.half-width {
     width: 40%;
     float: left;
-    margin-left:5%;
+    margin-left: 5%;
     margin-top: 2%;
 }
-.half-width img{
-    width:100%;
+
+.half-width img {
+    width: 100%;
+}
+
+.project-title {
+    text-align: center;
+    padding: 20px;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project {
+    width: 28%;
+    float: left;
+    margin-left: 2%;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 30px gray;
+}
+
+.project:hover {
+    box-shadow: 10px 10px 30px black;
 }
